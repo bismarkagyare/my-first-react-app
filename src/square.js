@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 
-const Square = () => {
+const Board = () => {
   return (
     <>
       <div className="board-row">
@@ -23,4 +23,4 @@ const Square = () => {
   );
 };
 
-export default Square;
+export default Board;

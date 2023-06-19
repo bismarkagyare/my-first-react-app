@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Square from './square';
+import Board from './square';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Square />
+      <Board />
     </div>
   );
 }

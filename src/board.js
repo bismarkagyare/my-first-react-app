@@ -21,7 +21,7 @@ const Board = () => {
       <div className="board-row">
         <Square />
         <Square />
-        <button className="square">9</button>
+        <Square />
       </div>
     </>
   );

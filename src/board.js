@@ -5,7 +5,7 @@ const Square = ({ value }) => {
   const handleClick = () => {
     console.log('clicked');
   };
-  //return <button className="square">{value}</button>;
+
   return (
     <button className="square" onClick={handleClick}>
       {value}

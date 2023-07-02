@@ -29,6 +29,21 @@ const Board = () => {
     ? `Winner: ${winner}`
     : `Next player: ${xIsNext ? 'X' : 'O'}`;
 
+  // return (
+  //   <div className="board">
+  //     <div className="status">{status}</div>
+  //     <div className="board-row">
+  //       {squares.map((value, index) => (
+  //         <Square
+  //           key={index}
+  //           value={value}
+  //           onSquareClick={() => handleClick(index)}
+  //         />
+  //       ))}
+  //     </div>
+  //   </div>
+  // );
+
   return (
     <>
       <div className="status">{status}</div>

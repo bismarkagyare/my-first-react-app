@@ -133,3 +133,9 @@ body {
 .game-info {
   margin-left: 20px;
 }
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

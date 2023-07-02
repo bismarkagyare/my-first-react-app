@@ -25,13 +25,9 @@ const Board = () => {
   };
 
   const winner = calculateWinner(squares);
-  let status;
-
-  if (winner) {
-    status = 'Winner: ' + winner;
-  } else {
-    status = 'Next player: ' + (xIsNext ? 'X' : 'O');
-  }
+  const status = winner
+    ? `Winner: ${winner}`
+    : `Next player: ${xIsNext ? 'X' : 'O'}`;
 
   return (
     <>
